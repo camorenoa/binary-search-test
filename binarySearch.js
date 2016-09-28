@@ -17,7 +17,7 @@ var numbersArray = function() {
 // console.log(numbersArray());
 
 function binarySearch(array, min, max, searchNum) {
-  var half = Math.floor((max - min)/2);
+  var half = Math.floor((max + min)/2);
   console.log('min-max', min, max, half, array[half]);
   if (max < min) {
     return -1;
